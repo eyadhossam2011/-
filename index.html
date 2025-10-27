@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>𝔸𝕔𝕔𝕖𝕡𝕥𝕖𝕕 𝕒𝕔𝕔𝕠𝕦𝕟𝕥 - التقديم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-overlay"></div>
+  <header class="hero">
+    <h1 class="logo">𝔸𝕔𝕔𝕖𝕡𝕥𝕖𝕕 <span>𝕒𝕔𝕔𝕠𝕦𝕟𝕥</span></h1>
+    <p class="tag">سيرفر حروب — 𝐕𝐄𝐍𝐎𝐌 𝐂𝐑𝐀𝐅𝐓</p>
+  </header>
+
+  <main class="container">
+    <section id="first-flow">
+      <!-- يظهر للمستخدم لأول مرة -->
+      <div id="apply-block" class="card center">
+        <h2>التقديم على سيرفر الديسكورد</h2>
+        <form id="discord-form">
+          <label>اسمك في ديسكورد / ماينكرافت
+            <input name="name" required>
+          </label>
+          <label>عمرك
+            <input name="age" type="number">
+          </label>
+          <label>ماذا يميزك ولماذا ترغب بالانضمام؟
+            <textarea name="reason" rows="4"></textarea>
+          </label>
+          <div class="actions">
+            <button type="submit" class="btn red">إرسال التقديم</button>
+          </div>
+        </form>
+        <p class="muted">بعد الإرسال سيصل طلبك لأدمنية السيرفر. بعد الموافقة ستحصل على كود دخول</p>
+      </div>
+
+      <div id="after-apply" class="card center hidden">
+        <h2>تم إرسال التقديم</h2>
+        <p>شكراً! تم إرسال طلبك. لو تم قبولك سيرسلك الأدمن كود الدخول لتفتح باقي صفحات الموقع.</p>
+        <div class="actions">
+          <a class="btn" href="key.html">إدخال كود الدخول</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="main-menu" class="card hidden">
+      <h2>الصفحات</h2>
+      <div class="menu-grid">
+        <a id="btn-mc" class="menu-item disabled" href="minecraft.html">تقديم ماينكرافت</a>
+        <a id="btn-admin" class="menu-item disabled" href="admin.html">تقديم الإدارة</a>
+        <a id="btn-discord" class="menu-item" href="https://discord.gg/4aAGjcPf5" target="_blank">دخول سيرفر الديسكورد</a>
+      </div>
+      <p class="muted">ملاحظة: الوصول للصفحات مغلق حتى تحصل على كود الدخول من الأدمن.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+              </html>
