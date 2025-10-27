@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>تقديم ماينكرافت</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-overlay"></div>
+  <header class="hero small">
+    <h1 class="logo">تقديم على ماينكرافت</h1>
+    <p class="tag">ادخل معلوماتك وسيتم التواصل معك</p>
+  </header>
+
+  <main class="container">
+    <div class="card center">
+      <form id="mc-form">
+        <label>اسمك في ماينكرافت
+          <input name="name" required>
+        </label>
+        <label>الإصدار الذي تستخدمه
+          <input name="version" value="1.21.111">
+        </label>
+        <label>هل قمت بتحميل النسخة المخصصة؟
+          <select name="downloaded">
+            <option value="نعم">نعم</option>
+            <option value="لا">لا</option>
+          </select>
+        </label>
+        <div class="actions">
+          <a class="btn" href="https://www.mediafire.com/file/ofdn7kgo7kyewh3/Minecraft+The+Copper+Age+1.21.111+UT_MODS.apk/file" target="_blank">تحميل النسخة</a>
+          <button class="btn red" type="submit">إرسال طلب الانضمام</button>
+        </div>
+      </form>
+      <p class="muted">بعد الموافقة ستحصل على رتبة "مقبول" داخل السيرفر.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
