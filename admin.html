@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>تقديم الإدارة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-overlay"></div>
+  <header class="hero small">
+    <h1 class="logo">تقديم الإدارة</h1>
+    <p class="tag">املأ النموذج بعناية</p>
+  </header>
+
+  <main class="container">
+    <div class="card center">
+      <form id="admin-form">
+        <label>اسمك في ماينكرافت
+          <input name="name" required>
+        </label>
+        <label>العمر
+          <input name="age" type="number">
+        </label>
+        <label>الخبرة أو سبب التقديم
+          <textarea name="experience" rows="4"></textarea>
+        </label>
+        <label>هل لديك وقت للتواجد؟
+          <input name="time" placeholder="مثال: مساءً 3 ساعات" >
+        </label>
+        <div class="actions">
+          <button class="btn red" type="submit">إرسال</button>
+        </div>
+      </form>
+      <p class="muted">سيتم إرسال التقديم إلى روم التقديمات في الديسكورد.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
